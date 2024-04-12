@@ -1,0 +1,42 @@
+@import url('./background.css');
+@import url('./header.css');
+@import url('./main.css');
+/*Configurações padrão do  Global CSS*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text: #EDF1F7;
+  --orange: #eba92f;
+  --gray: #5e5e5e;
+}
+/* Pré- definições */
+
+body, button, a {
+  color: var(--text);
+  font: 400 1rem "Mukta", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+
+  /*Não exibe o scroll quando a animação estoura o tamanho da tela*/
+  overflow: hidden;
+}

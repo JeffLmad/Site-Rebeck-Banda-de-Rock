@@ -1,0 +1,99 @@
+main{
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 1440px;
+}
+
+.main-info{
+    width: 100%;
+    max-width: 570px;
+    margin-left: 50px;
+    position: absolute;
+    top: 35%;
+    
+}
+
+
+
+
+.main-info p{
+    display: flex;
+    font-size: 18px;
+    margin: 20px 0 28px;
+    justify-content: center;
+    
+}
+
+.main-info div{
+    display: flex;
+    column-gap: 32px;
+    align-items: center;
+    transition: initial 0.4s;
+}
+
+.main-info div:hover{
+    opacity: 1;
+    transform: translateY(-5px);
+}
+
+
+
+.main-info div a, .main-info div button{
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    transform: skew(-10deg);
+    
+}
+
+
+
+
+
+.main-info div a{
+    background-color: var(--orange);  
+    padding: 23px 0;
+    transition: all 0.4s;
+}
+
+.main-info div a:hover{
+    opacity: 2;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+
+
+.main-info div button{
+    transition: all 0.4s;
+    background-color: transparent;
+    border: 1px solid var(--orange)
+    
+   
+}
+
+.main-info div button:hover{
+    opacity: 2;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+
+
+.img-principal {
+    position: absolute;
+    left: 60%;
+    top:25%;
+   
+}
+
